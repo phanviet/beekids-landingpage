@@ -1,0 +1,43 @@
+.feedback__input {
+  @include font-sizes(14, 21);
+  color: black;
+  width: 100%;
+  padding: 11px 25px;
+  border: 1px solid $color-mercury;
+  border-radius: 35px;
+  &::placeholder {
+    color: $color-mountain-mist;
+  }
+  &:focus {
+    outline: none;
+    background: rgb(232, 240, 254);
+  }
+  &--textarea {
+    resize: none;
+    overflow: auto;
+    // &:scrollbar {
+    //   width: 3px;
+    //   scrollbar-width: 5px;
+    //   // scrollbar-color: #e82914;
+    // }
+  }
+  &:required:focus {
+    border-color: #e82914;
+  }
+  &--footer{
+    background: transparent;
+    color: #ffffff;
+    &:focus{
+      background: transparent;
+    }
+  }
+}
+.feedback__submit {
+  // font-family: 'Dosis', sans-serif;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 10px;
+  min-width: 150px;
+  color: #ffffff;
+}

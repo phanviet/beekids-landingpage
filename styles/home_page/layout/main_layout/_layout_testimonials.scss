@@ -1,0 +1,27 @@
+.testimonials {
+  padding: 55px 15px;
+
+  &__items {
+    display: flex;
+    margin-top: 25px;
+    .avatar__img {
+      margin: 0 auto;
+    }
+  }
+  &__about {
+    max-width: 500px
+
+  }
+  &__qoute {
+    margin-bottom: 22px;
+  }
+  &__citation {
+    .citation__name {
+      margin: 0;
+    }
+    .citation__position {
+      margin: 0;
+
+    }
+  }
+}

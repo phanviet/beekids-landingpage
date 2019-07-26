@@ -1,0 +1,12 @@
+.feedback{
+  display: flex;
+  flex-direction: column;
+  &__input{
+    margin-bottom: 15px;
+  }
+  &__submit{
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+}
+

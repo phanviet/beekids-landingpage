@@ -1,0 +1,11 @@
+.header__menu {
+  .navbar-pd {
+    // padding: 13px 20px;
+    .nav-link-pd {
+      @include font-sizes(17, 24);
+      color: $color-purple-heart;
+      font-weight: 500;
+      padding: 10px 0;
+    }
+  }
+}

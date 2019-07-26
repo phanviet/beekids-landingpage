@@ -1,0 +1,29 @@
+.buttons {
+  background-color: $color-purple-heart;
+  border-radius: 35px;
+  border: 1px solid $color-purple-heart;
+  box-sizing: border-box;
+  &:hover {
+    background-color: $color-radical-red;
+    border-color: $color-radical-red;
+  }
+  &--subscribe {
+    background-color: $color-radical-red;
+    border: 1px solid $color-radical-red;
+    &:hover {
+      background-color: $color-purple-heart;
+      border-color: $color-purple-heart;
+    }
+  }
+  &--header {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 13px 35px;
+    margin-top: 10px;
+    &:hover {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}

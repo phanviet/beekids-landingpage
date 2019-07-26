@@ -1,0 +1,22 @@
+.header__contact {
+  background: $color-purple-heart;
+  font-size: 14px;
+  padding: 0 15px;
+  .contacts__list {
+  }
+  .contacts__item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    color: #ffffff;
+  }
+  .contacts__info {
+    display: inline-block;
+    line-height: 0;
+    margin: 0;
+    color: #ffffff;
+  }
+  .contact__icons{
+    margin-right: 10px;
+  }
+}

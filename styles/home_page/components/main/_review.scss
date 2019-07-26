@@ -1,0 +1,23 @@
+.review {
+  background-color: $color-radical-red;
+  background-image: url("../images/mt-1579-home-parallax3.png");
+  padding: 25px 0;
+  &__items {
+    color: #ffffff;
+    transition: 0.5s;
+    padding: 10px 0;
+    // &:hover {
+    //   box-shadow: 5px 5px 10px $color-rose;
+    // }
+  }
+  &__number {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  &__feel {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

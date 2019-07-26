@@ -1,0 +1,27 @@
+.introduction {
+  &__title {
+    font-family: "Dosis", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    &--color{
+      color: white;
+    }
+  }
+  &__content {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 14px;
+    padding: 10px 0;
+    &--color{
+      color: $color-mountain-mist;
+    }
+  }
+  &--center{
+    text-align: center;
+  }
+  &__img{
+    padding: 10px 0;
+  }
+
+}

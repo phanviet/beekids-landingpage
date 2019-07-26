@@ -1,0 +1,35 @@
+.card-modify {
+  border: none;
+  .card-header-modify {
+    cursor: pointer;
+    border-radius: 35px !important;
+    box-sizing: border-box;
+    padding: 9px 19px;
+    .card-title-modify {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: auto;
+      .text-modify {
+        text-align: left;
+        font-size: 15px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .icon-chevron-down-modify {
+        color: #ffffff;
+        font-size: 10px;
+        margin: 0 7px;
+      }
+      .icon-chevron-down-reverse {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .card-body-modify {
+    color: $color-mountain-mist;
+    font-size: 14px;
+  }
+}
+
+
