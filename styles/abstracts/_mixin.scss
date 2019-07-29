@@ -1,0 +1,5 @@
+
+@mixin font-sizes($font-size, $line-height){
+  font-size: pxToRem($font-size);
+  line-height: pxToRem($line-height);
+};

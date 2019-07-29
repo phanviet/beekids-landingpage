@@ -1,0 +1,40 @@
+.contact {
+  &__width {
+    width: auto;
+    height: 100%;
+    background: $color-radical-red;
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 400px;
+    // margin: 25px;
+  }
+
+  &__items {
+    display: flex;
+
+  }
+  &__info {
+    display: block;
+  }
+
+  &__feedback {
+    display: flex;
+    flex-direction: column;
+    .feedback__input {
+      margin-bottom: 15px;
+    }
+    .feedback__submit{
+      align-self: flex-end
+    }
+
+  }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+
+}

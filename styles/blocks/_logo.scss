@@ -1,0 +1,34 @@
+.logo {
+  &-color {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+    &:hover {
+      text-decoration: none;
+    }
+    &-1 {
+      color: $color-purple-heart;
+    }
+    &-2 {
+      color: $color-radical-red;
+    }
+    &-3 {
+      color: $color-pastel-green;
+    }
+    &-4 {
+      color: $color-deepskyblue-1;
+    }
+  }
+  &-name {
+    color: #000;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

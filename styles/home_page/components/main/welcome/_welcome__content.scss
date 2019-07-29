@@ -1,0 +1,40 @@
+.welcome {
+  &__content {
+    .welcome__list {
+      .nav-position {
+        display: block;
+        border: none;
+      }
+    }
+    .nav-link.nav-link-color {
+      font-size: 17px;
+      font-weight: 600;
+      color: black;
+      border: none;
+      text-align: center;
+      padding-top: 10px;
+      font-family: "Dosis", sans-serif;
+      // &:hover {
+      //   color: $color-radical-red;
+      border-bottom: 3px solid transparent;
+      margin-bottom: 5px;
+    }
+    .card-body-modify {
+      color: $color-mountain-mist;
+      font-size: 14px;
+      padding: 15px 0 0 0;
+    }
+    .active-click {
+      color: $color-radical-red !important;
+      border-bottom: 3px solid $color-radical-red !important;
+    }
+    .card-tab-border {
+      border: none;
+    }
+  }
+}
+
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+}

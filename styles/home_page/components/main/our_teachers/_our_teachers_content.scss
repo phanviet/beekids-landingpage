@@ -1,0 +1,46 @@
+.ourteachers {
+  &__img {
+    position: relative;
+    width: auto;
+    height: 380px;
+    background-size: cover;
+    border-radius: 40px;
+    // border: 1px solid $color-radical-red;
+    margin-bottom: 25px;
+    &:nth-child(1) {
+      background-image: url("../../../../../images/our_teachers/mt-1579-home-teacher1.jpg");
+    }
+    &:nth-child(2) {
+      background-image: url("../../../../../images/our_teachers/mt-1579-home-teacher2.jpg");
+    }
+    &:nth-child(3) {
+      background-image: url("../../../../../images/our_teachers/mt-1579-home-teacher3.jpg");
+    }
+    &:nth-child(4) {
+      background-image: url("../../../../../images/our_teachers/mt-1579-home-teacher4.jpg");
+    }
+  }
+
+  &__about {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    background-color: $color-radical-red;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  &__name {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  &__position {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+
+}

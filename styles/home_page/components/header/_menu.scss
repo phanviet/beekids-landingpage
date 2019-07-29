@@ -1,0 +1,31 @@
+.header__menu {
+  .navbar-pd {
+    padding: 0 15px;
+    // padding: 13px 20px;
+    .nav-link-pd {
+      @include font-sizes(17, 24);
+      color: $color-purple-heart;
+      font-weight: 500;
+      padding: 10px 0;
+    }
+  }
+}
+
+@media only all and (min-width: 786px) {
+  .header__menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    .navbar-pd {
+      padding: 0;
+      .nav-link-pd {
+        padding: 0;
+        margin-left: 70px;
+      }
+    }
+  }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+  // max-width: 1200px;
+}

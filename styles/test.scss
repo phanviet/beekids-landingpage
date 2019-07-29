@@ -1,0 +1,270 @@
+@import "abstracts/all";
+@import "base/all";
+@import "blocks/all";
+@import "home_page/components/all";
+@import "home_page/layout/all";
+.card-modify {
+  border: none;
+  .card-header-modify {
+    cursor: pointer;
+    border-radius: 35px !important;
+    box-sizing: border-box;
+    padding: 9px 19px;
+    .card-title-modify {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: auto;
+      .text-modify {
+        text-align: left;
+        font-size: 15px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .icon-chevron-down-modify {
+        color: #ffffff;
+        font-size: 10px;
+        margin: 0 7px;
+      }
+      .icon-chevron-down-reverse {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .card-body-modify {
+    color: $color-mountain-mist;
+    font-size: 14px;
+  }
+}
+
+.contact {
+  padding: 25px 15px;
+  &__width {
+    border-radius: 40px;
+  }
+  &__about {
+    padding: 30px;
+  }
+  &__items {
+    padding: 10px 0;
+  }
+  &__icon {
+    position: relative;
+    top: 5px;
+    color: #ffffff;
+    padding: 0 15px;
+    font-size: 20px;
+  }
+  &__intro {
+    padding: 0 15px;
+    color: #ffffff;
+  }
+  &__title {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  &__info {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.testimonials {
+  background-color: $color-blueviolet;
+  &__items {
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    transition: 0.5s;
+    .avatar__img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    &:hover {
+      border-color: $color-radical-red;
+    }
+  }
+  &__about {
+    padding: 0 10px;
+    .icon_quote {
+      position: relative;
+      top: -5px;
+      color: $color-mountain-mist;
+      opacity: 0.2;
+    }
+  }
+  &__quote {
+    font-size: 14px;
+    color: $color-mountain-mist;
+    line-height: 1.6;
+  }
+  &__citation {
+    .citation__name {
+      font-size: 18px;
+    }
+    .citation__position {
+      font-size: 12px;
+      color: $color-radical-red;
+    }
+  }
+}
+
+.ourclass {
+  &__list {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  &__item {
+  }
+
+  &__img {
+    text-align: center;
+    margin: 0 auto;
+    &--width {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__about {
+    text-align: center;
+    border: 1px solid $color-mercury;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin: 0 auto;
+    transition: 0.4s;
+
+    &:hover {
+      border: 1px solid $color-radical-red;
+    }
+  }
+  &__title {
+    font-size: 20px;
+    color: #ffffff;
+    background: $color-radical-red;
+    padding: 10px 0;
+    margin: 0;
+  }
+  &__sub {
+    transition: 0.2s;
+    padding: 5px 0;
+    .aboutsub__title {
+      font-size: 18px;
+      margin: 0;
+    }
+    .aboutsub__content {
+      font-size: 14px;
+      margin: 0;
+    }
+    &:hover {
+      background: $color-alto;
+    }
+    &:last-child {
+      border-radius: 50px;
+    }
+  }
+}
+
+.ourteachers {
+  width: 100%;
+  // img{
+  //   width: 100%;
+  //   // background-size: cover;
+  // }
+  padding: 15px;
+  &__img {
+    position: relative;
+    width: auto;
+    height: 380px;
+    background-size: cover;
+    background-image: url("../images/mt-1579-home-teacher1.jpg");
+    border-radius: 40px;
+    border: 1px solid $color-radical-red;
+  }
+  &__about {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    background-color: $color-radical-red;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  &__name {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  &__position {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+.review {
+  background-color: $color-radical-red;
+  background-image: url("../images/mt-1579-home-parallax3.png");
+  &__items {
+    color: #ffffff;
+    transition: 0.5s;
+    // &:hover {
+    //   box-shadow: 5px 5px 10px $color-rose;
+    // }
+  }
+  &__number {
+    font-size: 28px;
+  }
+  &__feel {
+    font-size: 18px;
+  }
+}
+
+.footer {
+  &__list {
+  padding: 15px;
+
+    color: #ffffff;
+    background: #000;
+  }
+  &__sub {
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  &__content {
+    font-size: 14px;
+    line-height: 1.5;
+    &--about {
+      // list-style-image: 5px;
+      margin-bottom: 8px;
+    }
+  }
+  &__time {
+  }
+  &__dayjob {
+    list-style-type: none;
+  }
+  &__day {
+  }
+  &__hour {
+    font-weight: bold;
+  }
+  &__icon {
+    font-size: 10px;
+    color: $color-radical-red;
+    margin-right: 10px;
+  }
+  &__bottom {
+    background: $color-purple-heart;
+    padding: 10px 15px;
+    color: #ffffff
+  }
+}
