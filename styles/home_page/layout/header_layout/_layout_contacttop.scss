@@ -1,7 +1,15 @@
 .full-screen-top {
   background: $color-purple-heart;
 }
-.header__contact{
+
+.header__menu {
+  position: sticky;
+  top: 0;
+}
+br{
+  position: absolute;
+}
+.header__contact {
   margin: 0 auto;
 }
 .contacts__info {

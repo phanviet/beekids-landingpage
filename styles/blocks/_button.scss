@@ -26,16 +26,16 @@
       color: #ffffff;
     }
   }
-  &--welcome{
+  &--welcome {
     cursor: pointer;
     display: inline-block;
     text-align: center;
     font-weight: 700;
     color: #ffffff !important;
-    font-size:14px;
+    font-size: 14px;
     padding: 12px 25px;
     margin: 0 auto;
-    margin-top:20px;
+    margin-top: 20px;
     font-family: "Dosis", sans-serif;
   }
 }
@@ -43,5 +43,11 @@
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
-
+}
+@media only all and (min-width: 786px) {
+  .buttons {
+    &--welcome {
+      margin-top: 30px;
+    }
+  }
 }

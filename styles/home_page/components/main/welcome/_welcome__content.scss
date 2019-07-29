@@ -1,17 +1,12 @@
 .welcome {
   &__content {
-    .welcome__list {
-      .nav-position {
-        display: block;
-        border: none;
-      }
-    }
     .nav-link.nav-link-color {
       font-size: 17px;
       font-weight: 600;
       color: black;
       border: none;
       text-align: center;
+      padding: 0;
       padding-top: 10px;
       font-family: "Dosis", sans-serif;
       // &:hover {
@@ -37,4 +32,21 @@
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
+}
+@media only all and (min-width: 786px) {
+  .welcome {
+    &__content {
+      .nav-link.nav-link-color {
+        font-size: 22px;
+        text-align: start;
+        margin: 0;
+        margin-right: 50px;
+      }
+      .card-body-modify {
+        color: $color-mountain-mist;
+        font-size: 14px;
+        padding: 30px 0 0 0;
+      }
+    }
+  }
 }

@@ -1,3 +1,14 @@
-.full-screen-menu{
-  
+@media only all and (min-width: 786px) {
+  .full-screen-menu{
+    position: sticky;
+    top: 0;
+  }
+  .header__menu {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .nav-link-pd {
+      margin-left: 70px;
+    }
+  }
 }
