@@ -1,7 +1,7 @@
 .introduction {
   &__title {
     font-family: "Dosis", sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     color: black;
     font-weight: bold;
     &--color {
@@ -25,7 +25,42 @@
   }
 }
 @media only all and (min-width: 786px) and (max-width: 960px) {
+  .introduction {
+    &__title {
+      font-size: 28px;
+      &--width {
+        font-size: 30px;
+        max-width: 360px;
+      }
+    }
+    &__content {
+      font-size: 13px;
+      max-width: 473px;
+      &--width {
+        font-size: 15px;
+        max-width: 560px;
+      }
+    }
+  }
 }
 @media only all and (min-width: 960px) {
-
+  .introduction {
+    &__title {
+      font-size: 65px;
+      &--width {
+        font-size: 50px;
+        max-width: 680px;
+      }
+    }
+    &__content {
+      font-size: 15px;
+      max-width: 568px;
+      margin: 0 auto;
+      &--width {
+        font-size: 18px;
+        max-width: 680px;
+        margin: 0;
+      }
+    }
+  }
 }

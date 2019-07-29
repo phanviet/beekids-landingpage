@@ -1,24 +1,26 @@
-.full-screen-ourclass {
-}
-.ourclass {
-  padding: 45px 15px;
-}
-@media only all and (min-width: 786px) and (max-width: 960px) {
+.footer {
+  &__list {
+  }
 }
 @media only all and (min-width: 960px) {
 }
+
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
 @media only all and (min-width: 786px) {
-  .ourclass {
+  .footer {
     max-width: 1200px;
     margin: 0 auto;
     &__list {
       display: flex;
       justify-content: space-between;
     }
-    &__itemsub{
-      display: flex;
-      justify-content: center;
-      // justify-content: space-between;
+    &__sub {
+      max-width: 268px;
     }
+  }
+  .footer__bottom {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }

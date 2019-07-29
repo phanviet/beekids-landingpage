@@ -1,9 +1,14 @@
+.full-screen-footer {
+  background: #000;
+}
+.full-screen-footer-bottom {
+  background: $color-purple-heart;
+}
 .footer {
   &__list {
-  padding: 15px;
+    padding: 15px;
 
     color: #ffffff;
-    background: #000;
   }
   &__sub {
     margin-bottom: 30px;
@@ -36,12 +41,11 @@
     margin-right: 10px;
   }
   &__bottom {
-    background: $color-purple-heart;
     padding: 10px 15px;
-    color: #ffffff
+    color: #ffffff;
   }
-  .social{
-    &__items{
+  .social {
+    &__items {
       margin-right: 8px;
     }
   }
@@ -49,15 +53,13 @@
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
-
 }
 @media only all and (min-width: 786px) {
   .footer {
-    .social{
-      &__items{
-        margin-left: 8px;
+    .social {
+      &__items {
+        margin: 0 8px 0 0;
       }
     }
   }
-
 }
