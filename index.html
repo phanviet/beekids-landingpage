@@ -22,42 +22,46 @@
 <body>
   <header class="header">
     <div class="header__top">
-      <div class="header__contact">
-        <div class="contacts__list">
-          <div class="contacts__item">
-            <i class="fa fa-phone contact__icons" aria-hidden="true"></i>
-            <a class="contacts__info" href="tel:+84898223213">(84) 898 223 213</a>
+      <div class="full-screen-top">
+        <div class="header__contact row pd-reset-0 mg-reset-0 ">
+          <div class="contacts__list col-md-9 pd-reset-0">
+            <div class="contacts__item">
+              <i class="fa fa-phone contact__icons" aria-hidden="true"></i>
+              <a class="contacts__info" href="tel:+84898223213">(84) 898 223 213</a>
+            </div>
+            <div class="contacts__item">
+              <i class="fa fa-envelope contact__icons" aria-hidden="true"></i>
+              <a class="contacts__info" href="mailto:hyuganejidn@gmail.com">hyuganejidn@gmail.com</a>
+            </div>
+            <div class="contacts__item">
+              <i class="fa fa-location-arrow contact__icons" aria-hidden="true"></i>
+              <p class="contacts__info">Big C, DaNang City</p>
+            </div>
           </div>
-          <div class="contacts__item">
-            <i class="fa fa-envelope contact__icons" aria-hidden="true"></i>
-            <a class="contacts__info" href="mailto:hyuganejidn@gmail.com">hyuganejidn@gmail.com</a>
-          </div>
-          <div class="contacts__item">
-            <i class="fa fa-location-arrow contact__icons" aria-hidden="true"></i>
-            <p class="contacts__info">Big C, DaNang City</p>
-          </div>
+          <ul class="social social--mg social--position col-md-3">
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+            <li class="social__items">
+              <a class="social__name social__name--color" href="#!"><i class="fas fa-envelope"></i></a>
+            </li>
+          </ul>
         </div>
-        <ul class="social social--mg">
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fab fa-youtube"></i></a>
-          </li>
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fab fa-google-plus-g"></i></a>
-          </li>
-          <li class="social__items">
-            <a class="social__name social__name--color" href="#!"><i class="fas fa-envelope"></i></a>
-          </li>
-        </ul>
       </div>
+
+      <!-- <div class="full-screen-menu"></div> -->
       <div class="header__menu">
         <nav class="navbar navbar-expand-md navbar-pd">
           <div class="navbar-brand pd-reset-0 logo" href="#">
@@ -114,8 +118,49 @@
         <h3 class="heading-3 introduction__title introduction__title--width">Welcome to Kids Center</h3>
         <img class="introduction__img" src="images/block/mt-1579-home-divider.png" alt="">
       </div>
+
       <div class="welcome__content">
+        <img class="welcome__img" src="images/home_welcome/mt-1579-home-welcome.jpg" alt="">
+        <div class="welcome__list">
+          <ul id="tabs" class="nav nav-tabs nav-position" role="tablist">
+            <li class="nav-item" id="active-click">
+              <a id="tab-A" href="#pane-A" class="nav-link active nav-link-color" data-toggle="tab" role="tab">Our
+                Mission</a>
+            </li>
+            <li class="nav-item">
+              <a id="tab-B" href="#pane-B" class="nav-link nav-link-color" data-toggle="tab" role="tab">Overview</a>
+            </li>
+          </ul>
+          <div id="content" class="tab-content" role="tablist">
+            <div id="pane-A" class="card tab-pane fade show active card-tab-border" role="tabpanel" aria-labelledby="tab-A">
+              <div id="collapse-A" class="collapse show" role="tabpanel" aria-labelledby="heading-A">
+                <div class="card-body card-body-modify">
+                  Our mission is to provide excellence in preschool, kindergarten, before and after school programs and
+                  summer
+                  camp for families living in the greater local area. Here you’ll find exceptional teachers, curriculum
+                  and
+                  learning environments that encourage children to learn, play and explore in a safe and nurturing
+                  environment.
+                </div>
+              </div>
+            </div>
+
+            <div id="pane-B" class="card tab-pane fade card-tab-border" role="tabpanel" aria-labelledby="tab-B">
+              <div id="collapse-B" class="collapse show" role="tabpanel" aria-labelledby="heading-B">
+                <div class="card-body card-body-modify">
+                  Sunrise offers a well-rounded curriculum based on free play, group and individual activities. The
+                  various
+                  activities included in the curriculum are based on varied monthly themes such as space, fire, water,
+                  earth,
+                  myself, family, people around us, birds, animals, insects, plants and more.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="buttons buttons--subscribe buttons--welcome">Our Programs</a>
       </div>
+
     </div>
 
     <div class="about">
@@ -127,6 +172,7 @@
           tobehave in the society, there are some vital things you can teach them onlysystematically.</p>
       </div>
     </div>
+
 
     <div class="ourclass">
       <div class="introduction introduction--center">
@@ -157,8 +203,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="ourclass__list">
         <div class="ourclass__item">
           <div class="ourclass__img">
             <img class="ourclass__img--width" src="images/our_class/mt-1579-home-classes2.jpg" alt="">
@@ -179,8 +223,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="ourclass__list">
         <div class="ourclass__item">
           <div class="ourclass__img">
             <img class="ourclass__img--width" src="images/our_class/mt-1579-home-classes3.jpg" alt="">
@@ -204,52 +246,58 @@
       </div>
     </div>
 
-    <div class="testimonials">
-      <div class="introduction introduction--center">
-        <h3 class="heading-3 introduction__title introduction__title--color introduction__title--width ">Testimonials
-        </h3>
-        <img class="introduction__img" src="images/block/mt-1579-home-divider1.png" alt="">
-      </div>
-      <div class="testimonials__items">
-        <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
-        <div class="testimonials__about">
-          <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
-          <blockquote class="testimonials__quote">
-            My younger son returns very happy with all activities happening at your school every day. Thank you!
-          </blockquote>
-          <article class="testimonials__citation">
-            <h5 class="citation__name">Ann Ross</h5>
-            <p class="citation__position">Designer at Comix Publishing</p>
-          </article>
+
+    <div class="full-screen-testimonials">
+      <div class="testimonials">
+        <div class="introduction introduction--center">
+          <h3 class="heading-3 introduction__title introduction__title--color introduction__title--width ">Testimonials
+          </h3>
+          <img class="introduction__img" src="images/block/mt-1579-home-divider1.png" alt="">
         </div>
-      </div>
-      <div class="testimonials__items">
-        <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
-        <div class="testimonials__about">
-          <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
-          <blockquote class="testimonials__quote">
-            My younger son returns very happy with all activities happening at your school every day. Thank you!
-          </blockquote>
-          <article class="testimonials__citation">
-            <h5 class="citation__name">Ann Ross</h5>
-            <p class="citation__position">Designer at Comix Publishing</p>
-          </article>
-        </div>
-      </div>
-      <div class="testimonials__items">
-        <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
-        <div class="testimonials__about">
-          <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
-          <blockquote class="testimonials__quote">
-            My younger son returns very happy with all activities happening at your school every day. Thank you!
-          </blockquote>
-          <article class="testimonials__citation">
-            <h5 class="citation__name">Ann Ross</h5>
-            <p class="citation__position">Designer at Comix Publishing</p>
-          </article>
+        <div class="testimonials__list">
+          <div class="testimonials__items">
+            <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
+            <div class="testimonials__about">
+              <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
+              <blockquote class="testimonials__quote">
+                My younger son returns very happy with all activities happening at your school every day. Thank you!
+              </blockquote>
+              <article class="testimonials__citation">
+                <h5 class="citation__name">Ann Ross</h5>
+                <p class="citation__position">Designer at Comix Publishing</p>
+              </article>
+            </div>
+          </div>
+          <div class="testimonials__items">
+            <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
+            <div class="testimonials__about">
+              <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
+              <blockquote class="testimonials__quote">
+                My younger son returns very happy with all activities happening at your school every day. Thank you!
+              </blockquote>
+              <article class="testimonials__citation">
+                <h5 class="citation__name">Ann Ross</h5>
+                <p class="citation__position">Designer at Comix Publishing</p>
+              </article>
+            </div>
+          </div>
+          <div class="testimonials__items">
+            <img class="avatar__img" src="./images/defaultAvatar.png" alt="">
+            <div class="testimonials__about">
+              <i class="fa fa-quote-left icon_quote" aria-hidden="true"></i>
+              <blockquote class="testimonials__quote">
+                My younger son returns very happy with all activities happening at your school every day. Thank you!
+              </blockquote>
+              <article class="testimonials__citation">
+                <h5 class="citation__name">Ann Ross</h5>
+                <p class="citation__position">Designer at Comix Publishing</p>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
 
     <div class="ourteachers">
       <div class="introduction introduction--center">
@@ -371,7 +419,7 @@
           </div>
         </div>
       </div>
-      <img class="question__img"src="images/question/mt-1579-home-faqs.jpg" alt="">
+      <img class="question__img" src="images/question/mt-1579-home-faqs.jpg" alt="">
     </div>
 
     <div class="contact">

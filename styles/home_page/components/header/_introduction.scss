@@ -5,5 +5,14 @@
   // height: 310px;
   background-size: cover;
   padding: 45px 15px;
+  .introduction{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+
+}

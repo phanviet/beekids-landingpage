@@ -1,0 +1,21 @@
+.welcome {
+  padding: 25px 15px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    .welcome__img {
+      width: 100%;
+      height: auto;
+    }
+    .nav-link-color {
+    }
+    .button-welcome {
+      align-self: center;
+    }
+  }
+}
+
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+}

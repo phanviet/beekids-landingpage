@@ -1,5 +1,4 @@
 .testimonials {
-  background-color: $color-blueviolet;
   &__items {
     background-color: #ffffff;
     border-radius: 40px;
@@ -39,4 +38,9 @@
       color: $color-radical-red;
     }
   }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+
 }

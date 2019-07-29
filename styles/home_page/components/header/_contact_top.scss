@@ -1,5 +1,4 @@
 .header__contact {
-  background: $color-purple-heart;
   font-size: 14px;
   padding: 0 15px;
   .contacts__list {
@@ -11,12 +10,31 @@
     color: #ffffff;
   }
   .contacts__info {
-    display: inline-block;
     line-height: 0;
     margin: 0;
     color: #ffffff;
   }
-  .contact__icons{
+  .contact__icons {
     margin-right: 10px;
+  }
+  .social {
+    &__items {
+      margin-right: 8px;
+    }
+  }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+}
+@media only all and (min-width: 786px) {
+  .header__contact {
+    padding: 0;
+
+    .social {
+      &__items {
+        margin: 0 0 0 8px;
+      }
+    }
   }
 }

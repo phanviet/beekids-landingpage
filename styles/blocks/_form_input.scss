@@ -24,10 +24,10 @@
   &:required:focus {
     border-color: #e82914;
   }
-  &--footer{
+  &--footer {
     background: transparent;
     color: #ffffff;
-    &:focus{
+    &:focus {
       background: transparent;
     }
   }
@@ -40,4 +40,9 @@
   padding: 12px 10px;
   min-width: 150px;
   color: #ffffff;
+}
+
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
 }

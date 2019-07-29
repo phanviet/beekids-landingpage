@@ -1,6 +1,8 @@
+.full-screen-testimonials {
+  background-color: $color-blueviolet;
+}
 .testimonials {
   padding: 55px 15px;
-
   &__items {
     display: flex;
     margin-top: 25px;
@@ -9,8 +11,7 @@
     }
   }
   &__about {
-    max-width: 500px
-
+    max-width: 500px;
   }
   &__qoute {
     margin-bottom: 22px;
@@ -21,7 +22,24 @@
     }
     .citation__position {
       margin: 0;
-
+    }
+  }
+}
+@media only all and (min-width: 786px) and (max-width: 960px) {
+}
+@media only all and (min-width: 960px) {
+}
+@media only all and (min-width: 786px) {
+  .testimonials {
+    max-width: 1200px;
+    margin: 0 auto;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__items:nth-child(2) {
+      margin-left:30px;
+      margin-right:30px;
     }
   }
 }
