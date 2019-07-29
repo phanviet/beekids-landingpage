@@ -12,12 +12,12 @@
       color: black;
       border: none;
       text-align: center;
-      padding: 10px 0;
+      padding-top: 10px;
       font-family: "Dosis", sans-serif;
       // &:hover {
       //   color: $color-radical-red;
-      //   border-bottom: 3px solid $color-radical-red;
-      // }
+      border-bottom: 3px solid transparent;
+      margin-bottom: 5px;
     }
     .card-body-modify {
       color: $color-mountain-mist;
