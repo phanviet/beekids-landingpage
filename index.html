@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800&display=swap&subset=vietnamese"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap&subset=vietnamese" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=vietnamese"
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -86,9 +87,20 @@
               <li class="nav-item">
                 <a class="nav-link nav-link-pd" href="#!">Contacts </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item nav-item-menu">
                 <a class="nav-link nav-link-pd" href="#!"> All blocks
                 </a>
+                <ul class="menusub-list">
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">About</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Ads bar</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Pricing</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Team</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Testimonial</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Couter</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">FAQs</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Gallery</a></li>
+                  <li class="menusub-item"><a class="menusub-item-taga" href="">Contacts</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -424,7 +436,10 @@
             </div>
           </div>
         </div>
-        <img class="question__img" src="images/question/mt-1579-home-faqs.jpg" alt="">
+        <div class="question__img">
+          <img class="question__img--position" src="images/question/mt-1579-home-faqs.jpg" alt="">
+        </div>
+
       </div>
 
     </div>
@@ -484,7 +499,15 @@
       <div class="footer">
         <div class="footer__list">
           <div class="footer__sub">
-            <h3 class="footer__title heading-2">CENTER</h3>
+            <div class="navbar-brand pd-reset-0 logo" href="#">
+              <a class="logo-color" href="#!">
+                <span class="logo-color-1">K</span>
+                <span class="logo-color-2">I</span>
+                <span class="logo-color-3">D</span>
+                <span class="logo-color-4">s</span>
+              </a><br>
+              <a class="logo-name logo-name-color" href="#!">CENTER</a>
+            </div>
             <p class="footer__content"> Since 1992 Kids Center has been providing top-quality, AMI certified Montessori
               education to infants, elementary children.</p>
           </div>
@@ -532,7 +555,7 @@
                 learning</li>
             </ul>
           </div>
-          <form action="" class="feedback">
+          <form action="" class="feedback feedback--width">
             <h3 class="footer__title">Newsletter</h3>
             <input class="feedback__input feedback__input--footer" type="email" placeholder="Email *" required>
             <input class="buttons buttons--subscribe feedback__submit" type="submit" value="SUBSCRIBE">

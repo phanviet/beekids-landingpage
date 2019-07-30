@@ -1,9 +1,11 @@
 .question {
   padding: 45px 15px;
+  .accordion--width {
+  }
   .card-modify {
     margin-bottom: 30px;
   }
-  &__img {
+  &__img--position {
     width: 100%;
     height: auto;
   }
@@ -15,15 +17,21 @@
     margin: 0 auto;
     padding: 65px 15px;
     .accordion--width {
+      flex-grow: 1;
       width: 100%;
     }
     &__img {
+      flex-grow: 1;
       width: 100%;
-      height: auto;
+      &--position {
+        width: 100%;
+        height: auto;
+      }
     }
+
     &__item {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       margin-top: 35px;
     }
   }

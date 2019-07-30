@@ -48,6 +48,8 @@
     // }
   }
   &__title {
+    font-family: "Dosis";
+    font-weight: 700;
     font-size: 20px;
     color: #ffffff;
     padding: 10px 0;
@@ -57,10 +59,13 @@
     transition: 0.2s;
     padding: 5px 0;
     .aboutsub__title {
+      font-family: "Dosis";
+      font-weight: 700;
       font-size: 18px;
       margin: 0;
     }
     .aboutsub__content {
+      font-family: "Open Sans";
       font-size: 14px;
       margin: 0;
     }
