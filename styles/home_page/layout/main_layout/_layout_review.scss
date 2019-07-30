@@ -12,8 +12,8 @@
 
 @media only all and (min-width: 786px) {
   .review {
-  flex-direction: row;
-  justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
     &__items {
       display: flex;
       flex-direction: column;
@@ -25,5 +25,4 @@
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
-  
 }

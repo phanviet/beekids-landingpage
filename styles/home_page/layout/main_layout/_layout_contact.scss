@@ -26,8 +26,8 @@
     .feedback__input {
       margin-bottom: 15px;
     }
-    .feedback__submit{
-      align-self: flex-end
+    .feedback__submit {
+      align-self: flex-end;
     }
   }
 }
@@ -35,23 +35,21 @@
 }
 @media only all and (min-width: 960px) {
 }
-@media only all and (min-width: 786px){
-  .contact{
-    padding-bottom: 130px;
+@media only all and (min-width: 786px) {
+  .contact {
     &__width {
-     margin: 60px 10px 0 10px;
-       height: auto ;
+      margin: 60px 10px 0 10px;
+      height: auto;
     }
     max-width: 1200px;
     margin: 0 auto;
-    .feedback{
+    .feedback {
       width: 100%;
       margin: 60px 10px 0 10px;
 
       height: auto;
-
     }
-    &__list{
+    &__list {
       display: flex;
       justify-content: space-between;
       padding: 0 100px;

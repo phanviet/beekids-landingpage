@@ -1,10 +1,10 @@
-.feedback{
+.feedback {
   display: flex;
   flex-direction: column;
-  &__input{
+  &__input {
     margin-bottom: 15px;
   }
-  &__submit{
+  &__submit {
     margin-top: 10px;
     align-self: flex-end;
   }
@@ -13,5 +13,4 @@
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
-
 }

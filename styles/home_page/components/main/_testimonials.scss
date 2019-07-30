@@ -1,4 +1,5 @@
 .testimonials {
+  padding: 55px 15px;
   &__items {
     background-color: #ffffff;
     border-radius: 40px;
@@ -40,7 +41,12 @@
   }
 }
 @media only all and (min-width: 786px) and (max-width: 960px) {
+  .testimonials {
+    padding: 65px 15px;
+  }
 }
 @media only all and (min-width: 960px) {
-
+  .testimonials {
+    padding: 100px 15px;
+  }
 }

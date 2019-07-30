@@ -1,7 +1,6 @@
 .full-screen-ourclass {
 }
 .ourclass {
-  padding: 45px 15px;
 }
 @media only all and (min-width: 786px) and (max-width: 960px) {
 }
@@ -15,7 +14,7 @@
       display: flex;
       justify-content: space-between;
     }
-    &__itemsub{
+    &__itemsub {
       display: flex;
       justify-content: center;
       // justify-content: space-between;
