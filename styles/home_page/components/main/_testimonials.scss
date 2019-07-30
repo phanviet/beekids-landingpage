@@ -7,8 +7,8 @@
     border: 1px solid #ffffff;
     transition: 0.5s;
     .avatar__img {
-      width: 60px;
-      height: 60px;
+      max-width: 60px;
+      max-height: 60px;
       border-radius: 50%;
     }
     &:hover {
