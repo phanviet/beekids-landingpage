@@ -1,4 +1,6 @@
 .header__menu {
+  padding-left: 15px;
+  padding-right: 15px;
   .navbar-pd {
     padding: 0 15px;
     // padding: 13px 20px;
@@ -23,8 +25,6 @@
       }
     }
   }
-}
-@media only all and (min-width: 786px) and (max-width: 960px) {
 }
 @media only all and (min-width: 960px) {
   // max-width: 1200px;

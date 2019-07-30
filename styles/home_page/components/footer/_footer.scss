@@ -5,9 +5,8 @@
   background: $color-purple-heart;
 }
 .footer {
+  padding: 15px;
   &__list {
-    padding: 15px;
-
     color: #ffffff;
   }
   &__sub {
@@ -50,16 +49,20 @@
     }
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
-}
-@media only all and (min-width: 960px) {
-}
+
 @media only all and (min-width: 786px) {
   .footer {
+    padding: 65px 15px;
     .social {
       &__items {
         margin: 0 8px 0 0;
       }
     }
+    &__sub {
+      margin-bottom: 0;
+    }
   }
+}
+@media only all and (min-width: 960px) {
+  
 }

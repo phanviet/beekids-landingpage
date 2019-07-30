@@ -1,15 +1,37 @@
 .ourclass {
+  padding: 45px 15px;
   &__list {
     padding-top: 25px;
   }
   &__item {
     max-width: 100%;
+    margin-bottom: 25px;
+    &:nth-child(1) .ourclass__title {
+      background: $color-radical-red;
+    }
+    &:nth-child(2) .ourclass__title {
+      background: $color-purple-heart;
+    }
+    &:nth-child(3) .ourclass__title {
+      background: $color-pastel-green;
+    }
+    &:nth-child(1) .ourclass__about:hover {
+      border: 1px solid $color-radical-red;
+    }
+    &:nth-child(2) .ourclass__about:hover {
+      border: 1px solid $color-purple-heart;
+    }
+    &:nth-child(3) .ourclass__about:hover {
+      border: 1px solid $color-pastel-green;
+    }
   }
 
   &__img {
     text-align: center;
     margin: 0 auto;
     &--width {
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
       max-width: 100%;
       height: auto;
     }
@@ -21,25 +43,15 @@
     border-bottom-left-radius: 40px;
     margin: 0 auto;
     transition: 0.4s;
-
-    &:hover {
-      border: 1px solid $color-radical-red;
-    }
+    // &:hover  {
+    //   border: 1px solid $color-radical-red;
+    // }
   }
   &__title {
     font-size: 20px;
     color: #ffffff;
     padding: 10px 0;
     margin: 0;
-    &--color:nth-child(1) {
-      background: $color-radical-red;
-    }
-    &--color:nth-child(2) {
-      background: $color-purple-heart;
-    }
-    &--color:nth-child(3) {
-      background: $color-pastel-green;
-    }
   }
   &__sub {
     transition: 0.2s;
@@ -52,17 +64,18 @@
       font-size: 14px;
       margin: 0;
     }
-    // &:hover {
-    //   background: $color-alto;
-    // }
+
     &:last-child {
       border-radius: 50px;
     }
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
+@media only all and (min-width: 786px) {
   .ourclass {
-    &__list {
+    padding: 65px 0;
+    &__item {
+      padding: 0 10px;
+      margin-bottom: 0px;
     }
     &__itemsub {
       padding: 25px;
@@ -72,6 +85,7 @@
     }
     &__sub {
       padding: 0 10px;
+      max-width: 120px;
       .aboutsub__title {
         font-size: 14px;
       }
@@ -87,9 +101,10 @@
 }
 @media only all and (min-width: 960px) {
   .ourclass {
-    &__list {
+    padding: 130px 0;
+    &__item {
+      padding: 0 15px;
     }
-
     &__itemsub {
       padding: 30px;
     }
@@ -103,18 +118,6 @@
       }
       .aboutsub__content {
         font-size: 14px;
-      }
-    }
-  }
-}
-
-@media only all and (min-width: 786px) {
-  .ourclass {
-    &__sub {
-      max-width: 120px;
-      &:nth-child(2) {
-        border-left: 1px solid $color-mercury;
-        border-right: 1px solid $color-mercury;
       }
     }
   }

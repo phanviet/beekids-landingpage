@@ -1,6 +1,4 @@
 .welcome {
-  padding: 25px 15px;
-
   &__content {
     .welcome__list {
       .nav-position {
@@ -22,10 +20,6 @@
   }
 }
 
-@media only all and (min-width: 786px) and (max-width: 960px) {
-}
-@media only all and (min-width: 960px) {
-}
 @media only all and (min-width: 786px) {
   .welcome {
     max-width: 1200px;
@@ -44,7 +38,7 @@
     &__right {
       margin-left: 20px;
     }
-
-
   }
+}
+@media only all and (min-width: 960px) {
 }

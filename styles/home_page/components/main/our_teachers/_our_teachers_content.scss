@@ -1,32 +1,33 @@
 .ourteachers {
-  &__img {
+  padding: 45px 15px;
+  &__items {
     position: relative;
-    max-width: 100%;
+    width: auto;
     height: 380px;
-    background-size: cover;
-    border-radius: 40px;
-    // border: 1px solid $color-radical-red;
-    margin-bottom: 25px;
-    // &:nth-child(1) {
-    //   background-image: url("../images/our_teachers/mt-1579-home-teacher1.jpg");
-    // }
-    // &:nth-child(2) {
-    //   background-image: url("../images/our_teachers/mt-1579-home-teacher2.jpg");
-    // }
-    // &:nth-child(3) {
-    //   background-image: url("../images/our_teachers/mt-1579-home-teacher3.jpg");
-    // }
-    // &:nth-child(4) {
-    //   background-image: url("../images/our_teachers/mt-1579-home-teacher4.jpg");
-    // }
+    &:nth-child(1) .ourteachers__about {
+      background: $color-radical-red;
+    }
+    &:nth-child(2) .ourteachers__about {
+      background: $color-purple-heart;
+    }
+    &:nth-child(3) .ourteachers__about {
+      background: $color-pastel-green;
+    }
+    &:nth-child(4) .ourteachers__about {
+      background: $color-picton-blue;
+    }
   }
 
+  &__img {
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+  }
   &__about {
-    // position: relative;
+    position: absolute;
     top: 270px;
-    right: 0;
-    max-width: 490px;
-    background-color: $color-radical-red;
+    right: 0px;
+    width: 70%;
     color: #ffffff;
     padding: 10px 20px;
   }
@@ -40,8 +41,38 @@
     margin: 0;
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
+@media only all and (min-width: 786px) {
+  .ourteachers {
+    padding: 65px 0px;
+    &__items {
+      padding: 0 10px;
+    }
+    &__about {
+      right: 10px;
+    }
+    &__list {
+      padding-top: 35px;
+    }
+    &__name {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+    &__position {
+      font-size: 12px;
+    }
+  }
 }
 @media only all and (min-width: 960px) {
-
+  .ourteachers {
+    padding: 130px 15px;
+    &__list {
+      padding-top: 60px;
+    }
+    &__name {
+      font-size: 20px;
+    }
+    &__position {
+      font-size: 14px;
+    }
+  }
 }

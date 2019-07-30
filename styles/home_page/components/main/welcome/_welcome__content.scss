@@ -1,4 +1,5 @@
 .welcome {
+  padding: 25px 15px;
   &__content {
     .nav-link.nav-link-color {
       font-size: 17px;
@@ -9,8 +10,6 @@
       padding: 0;
       padding-top: 10px;
       font-family: "Dosis", sans-serif;
-      // &:hover {
-      //   color: $color-radical-red;
       border-bottom: 3px solid transparent;
       margin-bottom: 5px;
     }
@@ -27,30 +26,35 @@
       border: none;
     }
   }
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only all and (min-width: 786px) and (max-width: 960px) {
   .welcome {
+    padding: 65px 15px 0;
     &__content {
       .nav-link.nav-link-color {
         font-size: 18px;
       }
       .card-body-modify {
         font-size: 13px;
-
       }
     }
   }
 }
 @media only all and (min-width: 960px) {
-.welcome {
+  .welcome {
+    padding: 0;
+    padding-top: 130px;
     &__content {
       .nav-link.nav-link-color {
         font-size: 22px;
       }
       .card-body-modify {
         font-size: 15px;
-
       }
     }
   }
@@ -66,6 +70,9 @@
       .card-body-modify {
         padding: 30px 0 0 0;
       }
+    }
+    &__right {
+      display: inline-block;
     }
   }
 }
