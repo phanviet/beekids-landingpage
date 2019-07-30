@@ -2,10 +2,7 @@
 }
 .ourclass {
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
-}
-@media only all and (min-width: 960px) {
-}
+
 @media only all and (min-width: 786px) {
   .ourclass {
     max-width: 1200px;
@@ -20,4 +17,6 @@
       // justify-content: space-between;
     }
   }
+}
+@media only all and (min-width: 960px) {
 }

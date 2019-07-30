@@ -1,13 +1,39 @@
 .introduction {
+  // &:first-child .introduction__title::before{
+  //   left:0;
+  // }
   &__title {
+    position: relative;
     font-family: "Dosis", sans-serif;
     font-size: 28px;
     color: black;
     font-weight: bold;
+    margin-bottom: 50px;
+    // background-image: url("../images/block/mt-1579-home-divider.png");
+    &::before {
+      position: absolute;
+      bottom: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 64px;
+      height: 17px;
+      content: "";
+      background-image: url("../images/block/mt-1579-home-divider.png");
+    }
     &--color {
       color: white;
+      &::before {
+        background-image: url("../images/block/mt-1579-home-divider1.png");
+      }
+    }
+    &--width {
+      &::before {
+        left: 0;
+        transform: translateX(0);
+      }
     }
   }
+
   &__content {
     font-family: "Open Sans", sans-serif;
     color: black;
@@ -24,7 +50,7 @@
     padding: 10px 0;
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
+@media only all and (min-width: 786px) {
   .introduction {
     &__title {
       font-size: 28px;
@@ -37,7 +63,9 @@
       font-size: 13px;
       max-width: 473px;
       margin: 0 auto;
+
       &--width {
+        margin: 0;
         font-size: 15px;
         max-width: 560px;
       }
@@ -56,11 +84,9 @@
     &__content {
       font-size: 15px;
       max-width: 568px;
-      margin: 0 auto;
       &--width {
         font-size: 18px;
         max-width: 680px;
-        margin: 0;
       }
     }
   }

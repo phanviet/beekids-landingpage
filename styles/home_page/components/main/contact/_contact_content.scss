@@ -35,11 +35,11 @@
     }
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
+@media only all and (min-width: 786px) {
   .contact {
     padding: 65px 15px;
     &__icon {
-      font-size: 20px;
+      font-size: 16px;
     }
     &__title {
       font-size: 14px;
@@ -52,8 +52,14 @@
 @media only all and (min-width: 960px) {
   .contact {
     padding: 130px 15px;
+    &__icon {
+      font-size: 20px;
+    }
     &__title {
       font-size: 20px;
+    }
+    &__info {
+      font-size: 14px;
     }
   }
 }

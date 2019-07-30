@@ -20,10 +20,6 @@
   }
 }
 
-@media only all and (min-width: 786px) and (max-width: 960px) {
-}
-@media only all and (min-width: 960px) {
-}
 @media only all and (min-width: 786px) {
   .welcome {
     max-width: 1200px;
@@ -43,4 +39,6 @@
       margin-left: 20px;
     }
   }
+}
+@media only all and (min-width: 960px) {
 }

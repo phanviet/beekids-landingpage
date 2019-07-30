@@ -41,9 +41,15 @@
     margin: 0;
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
+@media only all and (min-width: 786px) {
   .ourteachers {
     padding: 65px 0px;
+    &__items {
+      padding: 0 10px;
+    }
+    &__about {
+      right: 10px;
+    }
     &__list {
       padding-top: 35px;
     }
@@ -64,20 +70,9 @@
     }
     &__name {
       font-size: 20px;
-      line-height: 1.2;
     }
     &__position {
       font-size: 14px;
-    }
-  }
-}
-@media only all and (min-width: 786px) {
-  .ourteachers {
-    &__items {
-      padding: 0 10px;
-    }
-    &__about {
-      right: 10px;
     }
   }
 }

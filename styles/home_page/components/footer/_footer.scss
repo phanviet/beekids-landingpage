@@ -49,15 +49,10 @@
     }
   }
 }
-@media only all and (min-width: 786px) and (max-width: 960px) {
-  .footer {
-    padding: 65px 15px;
-  }
-}
-@media only all and (min-width: 960px) {
-}
+
 @media only all and (min-width: 786px) {
   .footer {
+    padding: 65px 15px;
     .social {
       &__items {
         margin: 0 8px 0 0;
@@ -67,4 +62,7 @@
       margin-bottom: 0;
     }
   }
+}
+@media only all and (min-width: 960px) {
+  
 }
