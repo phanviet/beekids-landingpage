@@ -2,15 +2,51 @@
   padding-left: 15px;
   padding-right: 15px;
   .navbar-pd {
-    padding: 0 15px;
+    padding: 0;
     // padding: 13px 20px;
+
     .nav-link-pd {
       @include font-sizes(17, 24);
       color: #000;
       font-weight: 500;
       padding: 10px 0;
+      transition: 0.3s;
+      font-family: "Dosis";
+      font-weight: bold;
       &:hover {
         color: $color-radical-red;
+      }
+    }
+  }
+  .nav-item-menu {
+    position: relative;
+    &:hover .menusub-list {
+      display: inline-block;
+    }
+  }
+  .menusub-list {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    background-color: #fff;
+    list-style-type: none;
+    z-index: 20;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.2);
+    .menusub-item {
+      padding: 0;
+      &-taga {
+        display: inline-block;
+        padding: 6px 10px;
+        font-family: "Dosis";
+        font-size: 17px;
+        line-height: 18px;
+        color: black;
+        text-decoration: none;
+        &:hover {
+          color: $color-radical-red;
+        }
       }
     }
   }
@@ -18,14 +54,43 @@
 
 @media only all and (min-width: 768px) {
   .header__menu {
-    .navbar-pd {
-      padding: 0;
-      .nav-link-pd {
+    .nav-item-menu {
+    }
+    .menusub-list {
+      width: 120px;
+      padding: 10px 0;
+      top: 65px;
+      left: -20px;
+      .menusub-item {
         padding: 0;
+        &-taga {
+
+        }
+      }
+    }
+    .navbar-pd {
+      // padding: 0;
+      .nav-link-pd {
+        padding: 20px 0;
+        font-size: 16px;
+        // padding: 0;
       }
     }
   }
 }
 @media only all and (min-width: 960px) {
-  // max-width: 1200px;
+  .header__menu {
+    .nav-item-menu {
+    }
+    .menusub-list {
+      left: 70px;
+      padding: 15px 0;
+      width: 180px;
+      .menusub-item {
+        &-taga {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }

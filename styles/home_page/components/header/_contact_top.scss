@@ -25,6 +25,8 @@
 }
 @media only all and (min-width: 768px) {
   .header__contact {
+    font-size: 13px;
+
     .social {
       &__items {
         margin: 0 0 0 8px;
@@ -33,4 +35,7 @@
   }
 }
 @media only all and (min-width: 960px) {
+  .header__contact {
+    font-size: 15px;
+  }
 }

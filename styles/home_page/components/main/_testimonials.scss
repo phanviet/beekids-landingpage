@@ -1,5 +1,7 @@
 .testimonials {
   padding: 55px 15px;
+  font-family: "Open Sans", sans-serif;
+
   &__items {
     background-color: #ffffff;
     border-radius: 40px;
@@ -17,7 +19,7 @@
     }
   }
   &__about {
-    padding: 0 10px;
+    padding: 10px 0 0 10px;
     .icon_quote {
       position: relative;
       top: -5px;
@@ -33,6 +35,8 @@
   &__citation {
     .citation__name {
       font-size: 18px;
+      font-family: "Dosis";
+      font-weight: 700;
     }
     .citation__position {
       font-size: 12px;
@@ -43,10 +47,42 @@
 @media only all and (min-width: 768px) {
   .testimonials {
     padding: 65px 15px;
+    &__items {
+      .avatar__img {
+        max-width: 40px;
+        max-height: 40px;
+      }
+    }
+    &__quote {
+      font-size: 12px;
+      line-height: 1.4;
+      letter-spacing: 0px;
+    }
+    &__citation {
+      .citation__name {
+        font-size: 14px;
+      }
+    }
   }
 }
 @media only all and (min-width: 960px) {
   .testimonials {
     padding: 100px 15px;
+    &__items {
+      .avatar__img {
+        max-width: 60px;
+        max-height: 60px;
+      }
+    }
+    &__quote {
+      font-size: 14px;
+      line-height: 1.4;
+      letter-spacing: 0px;
+    }
+    &__citation {
+      .citation__name {
+        font-size: 20px;
+      }
+    }
   }
 }
